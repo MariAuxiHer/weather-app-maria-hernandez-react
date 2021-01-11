@@ -7,7 +7,7 @@ export default function GitHubLink() {
       <span id="link-github">
         {" "}
         <a
-          href="https://github.com/MariAuxiHer/weather-app-maria-hernandez"
+          href="https://github.com/MariAuxiHer/weather-app-maria-hernandez-react"
           rel="noreferrer"
           target="_blank"
         >
