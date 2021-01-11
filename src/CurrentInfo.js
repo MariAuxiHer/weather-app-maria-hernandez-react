@@ -25,13 +25,13 @@ export default function CurrentInfo() {
           <div id="current-temperture">
             <span id="tempe"> 13</span>{" "}
             <span id="celsius-farenheit-smaller-size">
-              <a href="#" id="celsius" className="active">
+              <span href="#" id="celsius" className="active">
                 °C
-              </a>{" "}
+              </span>{" "}
               |
-              <a href="#" id="fahrenheit">
+              <span href="#" id="fahrenheit">
                 ℉
-              </a>
+              </span>
             </span>
           </div>
         </div>
