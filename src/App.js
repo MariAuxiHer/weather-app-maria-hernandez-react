@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+//import Weather from "./Weather"
+//import './App.css';
 
-function App() {
+import React from "react";
+import SearchCity from "./SearchCity";
+import SpecificCities from "./SpecificCities";
+import CurrentInfo from "./CurrentInfo";
+import ThreeHoursForecastOneDay from "./ThreeHoursForecastOneDay.js";
+import FiveDaysForecast from "./FiveDaysForecast.js";
+import GitHubLink from "./GitHubLink.js";
+
+import "./styles.css";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="WeatherApp">
+        <h1 className="HeaderMainTitle">Real Time - Weather Report</h1>
+
+        <SearchCity />
+        <br />
+        <SpecificCities />
+        <CurrentInfo />
+        <ThreeHoursForecastOneDay />
+        <FiveDaysForecast />
+        <span id="Weather-app">Weather-App</span>
+      </div>
+      <GitHubLink />
     </div>
   );
 }
 
-export default App;
+//function App() {
+  //return (
+    //<div className="App">
+      //<h1>Hola Soy Maria</h1>
+     
+      //<Weather city="Atlanta"/>
+  
+ //   </div>
+  //);
+//}
+
+//export default App;

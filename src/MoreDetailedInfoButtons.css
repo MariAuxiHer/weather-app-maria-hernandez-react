@@ -1,0 +1,20 @@
+.more-detailed-info-buttons {
+    margin: 5% 0% 2% 2%;
+    font-size: 1.8vw;
+    padding: 2px 12px;
+    border: 1px solid #8675a9;
+    border-radius: 3.5%;
+    background: #c3aed6;
+    color: #826ea8;
+    font-weight: bold;
+  }
+  
+  .more-detailed-info-buttons:hover {
+    outline: none;
+    background: #e3d8ee;
+  }
+  
+  .more-detailed-info-buttons:focus {
+    outline: none;
+    background: #d4bceb;
+  }
