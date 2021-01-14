@@ -1,6 +1,3 @@
-//import Weather from "./Weather"
-//import './App.css';
-
 import React from "react";
 import SearchCity from "./SearchCity";
 import SpecificCities from "./SpecificCities";
@@ -9,7 +6,7 @@ import ThreeHoursForecastOneDay from "./ThreeHoursForecastOneDay.js";
 import FiveDaysForecast from "./FiveDaysForecast.js";
 import GitHubLink from "./GitHubLink.js";
 
-import "./styles.css";
+import "./App.css";
 
 export default function App() {
   return (
