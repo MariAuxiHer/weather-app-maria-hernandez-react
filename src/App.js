@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 import SearchCity from "./SearchCity";
 import SpecificCities from "./SpecificCities";
 import CurrentInfo from "./CurrentInfo";
